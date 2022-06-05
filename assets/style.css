@@ -299,3 +299,186 @@ a>img:hover{
     color: white;
     background-color: black;
 }
+/* media queries */
+@media screen and (max-width: 920px){
+    fieldset>legend>h1{
+        font-size: 25px;
+    }
+    #sect1{
+        background-image: url("./images/background2.jpeg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-blend-mode:darken;
+    }
+    #sect1>#sect1container{
+        border-radius: 50px;
+    }
+    #sect1div1{
+        border: 0px;
+        padding: 20px;
+    }
+    #sect1div2>#sect1div2subdiv2>img{
+        display: none;
+    }
+    #sect1div2{
+        display: none;
+    }
+    #sect2container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sect2container>div{
+        padding-bottom: 0%;
+        margin-bottom: 0%;
+        margin: 10px;
+        padding-left: 40px;
+    }
+    
+    #sect3{
+        margin-top: 50px;
+    }
+    #sect3>fieldset{
+        height: 60vh;
+    }
+   
+    #sect3>fieldset>ul>li{
+        display: block;
+        padding: 15px;
+        font-size: 20px;
+        font-family: 'Marcellus SC', serif;   
+    }
+    #sect4>fieldset{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #sect4>fieldset>div{
+        width: 100%;
+    }
+    #sect4>fieldset>div>img{
+        height: 100px;
+        width: 100px;
+    }
+    #sect5{
+    
+        margin-top: 50px;
+     }
+     #sect5>h1{
+         font-family: 'Kelly Slab', cursive;
+         font-size: 30px;
+         letter-spacing: 3px;
+         text-align: center;
+     }
+     #span1{
+         padding-top: 10px;
+         border-top: 3px solid gold;
+     }
+     #span2{
+         border-bottom: 3px solid gold;
+         padding-bottom: 10px;
+     }
+     
+     
+     #sect5container>div{
+         padding: 10px;
+         background:linear-gradient(to top, rgba(255, 213, 1, 0.449), rgba(255, 225, 0, 0.737));
+         margin: 30px;
+         width: 100%;
+         
+         border-radius: 20px;
+     }
+     
+     #sect5container>div>a>img{
+         border-radius: 10px;
+        
+         
+         
+     }
+     
+     #sect5container>div>h3{
+         text-align: center;
+         padding: 20px;
+         font-family: 'Kelly Slab', cursive;
+         font-size: 20px;
+         letter-spacing: 3px;
+         padding-top: 30px;
+         line-height: 25px;
+         
+     }
+     
+     .span1{
+         border: none;
+     }
+     .span2{
+         border: none;
+
+     }
+     #sect6{
+        margin-top: 50px;
+        
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #sect6>h1{
+        
+        padding-bottom: 30px;
+        text-align: center;
+        font-family: 'Kelly Slab', cursive;
+        font-size: 30px;
+        letter-spacing: 5px;
+        
+    }
+    #sect6container{
+        height: 30vh;
+        margin: 0px;
+        margin-bottom: 30px;
+        padding-top: 50px;
+        width: 100%;
+        border-radius: 30px;
+        display: flex;
+        flex-wrap: wrap;
+        
+        background:linear-gradient(to top, rgba(139, 136, 136, 0.811), rgba(255, 225, 0, 0.688));
+    }
+   
+    #sect6container>#contactme>a{
+        display: block;
+        padding: 20px;
+        
+       
+        color: black;
+    }
+    #sect6container>#contactme>a[href="https://github.com/DennisMwangi1"]{
+        display: none;
+    }
+    #sect6container>#contactme>a:hover{
+        color: white;
+    }
+    #sect6container>#query{
+        display: none;
+    }
+    
+     
+}
+@media screen and (max-width: 1100px){
+    #sect1div2{
+        display: none;
+        
+    }
+    #sect1div1{
+        border: none;
+    }
+    #sect2container>div{
+        padding-left: 30px;
+    }
+    #sect3>fieldset>ul>li{
+        font-size: 20px;
+        line-height: 10vh;
+        
+    }
+    #sect4>fieldset{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
