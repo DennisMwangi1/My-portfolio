@@ -15,10 +15,11 @@ body{
     background-position: center;
     background-size: cover;
     background-blend-mode:darken;
-    height: 100vh;
+    
     padding-top: 48px;
     padding-left: 100px;
     padding-right: 100px;
+    padding-bottom: 30px;
     
 }
 #sect1>#sect1container{
@@ -40,7 +41,7 @@ body{
 }
 #sect1div1>h3{
     margin: 10px 0px 0px 0px;
-    
+    letter-spacing: 7px;
     font-family: 'Marcellus SC', serif;
     
 }
@@ -68,12 +69,13 @@ body{
     font-size: 40px;
     font-family: 'Kelly Slab', cursive;
     line-height: 15vh;
+    letter-spacing: 5px;
     
 }
 #sect1div2>#sect1div2subdiv2>img{
     filter: brightness(1);
     margin-bottom: 0;
-    height: 90vh;
+    height: 100vh;
     
     
 }
@@ -97,6 +99,7 @@ fieldset {
 fieldset>legend{
     font-size: 30px;
     font-family: 'Kelly Slab', cursive;
+    letter-spacing: 3px;
 
 }
 #sect2container{
@@ -137,5 +140,54 @@ fieldset>legend{
 }
 /* styling for section 4 */
 #sect4{
+    /* height: 100vh; */
+    margin-bottom: 100px;
+}
+#sect4>fieldset{
+    display: flex;
+    justify-content: space-around;
+}
+#sect4>fieldset>div{
+    height: 100%;
+    background:linear-gradient(to top, rgba(255, 213, 1, 0.645), rgba(218, 213, 213, 0.522));
+    border-radius: 20px;
+    padding: 30px;
+    margin: 20px;
+    width: 25%;
+    line-height: 25px;
+    letter-spacing: 1px;
+    
+    
+    
+}
+#sect4>fieldset>div>h1{
+    padding-bottom: 10px;
+    font-family: 'Kelly Slab', cursive;
+}
+#sect4>fieldset>div>p{
+    font-size: 18px;
+    font-weight: 800;
+    font-family: 'Marcellus SC', serif;
+    
+
+}
+
+
+/* styling for section 5*/
+#sect5{
     height: 100vh;
+}
+#sect5>h1{
+    font-family: 'Kelly Slab', cursive;
+    font-size: 40px;
+    letter-spacing: 8px;
+    text-align: center;
+}
+#sect5>h1>#span1{
+    padding-top: 10px;
+    border-top: 3px solid gold;
+}
+#sect5>h1>#span2{
+    border-bottom: 3px solid gold;
+    padding-bottom: 10px;
 }
