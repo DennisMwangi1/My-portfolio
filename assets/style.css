@@ -1,0 +1,141 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    scroll-behavior: smooth;
+    
+}
+body{
+    /* background-color: rgba(255, 255, 255, 0.646); */
+    background: linear-gradient(to bottom, rgb(226, 224, 224), white );
+    /* color: white; */
+}
+#sect1{
+    background-image: url("./images/background2.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode:darken;
+    height: 100vh;
+    padding-top: 48px;
+    padding-left: 100px;
+    padding-right: 100px;
+    
+}
+#sect1>#sect1container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to right, rgba(255, 217, 0, 0.498), rgba(255, 254, 254, 0.655));
+    border-radius: 100px;
+    
+    
+}
+#sect1div1{
+    width: 100%;
+    padding: 20px 30px 0px 150px;
+    border-right: 3px solid white;
+}
+#sect1div1>img{
+    border-radius: 70px;
+}
+#sect1div1>h3{
+    margin: 10px 0px 0px 0px;
+    
+    font-family: 'Marcellus SC', serif;
+    
+}
+#sect1div1>ul{
+    margin-left: 40px;
+}
+#sect1div1>ul>a{
+    
+    list-style: none;
+    color: black;
+    margin: 5px;
+    
+}
+#sect1div1>ul>a :hover{
+    color: white;
+}
+#sect1div2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#sect1div2>#sect1div2subdiv1>h1{
+    padding-top: 100px;
+    padding-left: 30px;
+    font-size: 40px;
+    font-family: 'Kelly Slab', cursive;
+    line-height: 15vh;
+    
+}
+#sect1div2>#sect1div2subdiv2>img{
+    filter: brightness(1);
+    margin-bottom: 0;
+    height: 90vh;
+    
+    
+}
+/* styling for section2 */
+#sect2{
+    height: 80vh;
+    margin-top: 50px;
+}
+fieldset {
+    display: block;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 0.625em;
+    padding-left: 0.75em;
+    padding-right: 0.75em;
+    border: 7px solid rgba(255, 217, 0, 0.635);
+    border-radius: 15px;
+    
+}
+fieldset>legend{
+    font-size: 30px;
+    font-family: 'Kelly Slab', cursive;
+
+}
+#sect2container{
+    display: flex;
+    justify-content: space-around;
+}
+#sect2container>div{
+    width: 100%;
+    height: 40vh;
+    background: linear-gradient(to right, rgba(255, 217, 0, 0.724), rgba(189, 187, 187, 0.552));
+    border-radius: 50px;
+    margin: 10px;
+    padding-left: 70px;
+    padding-top: 30px;
+    line-height: 50px;
+    font-family: 'Marcellus SC', serif;
+}
+#subdiv1>p{
+    font-size: 25px;
+}
+#subdiv2>p{
+    font-size: 20px;
+}
+/* styling for section 3 */
+#sect3{
+    height: 50vh;
+}
+#sect3>fieldset{
+    height: 25vh;
+}
+#sect3>fieldset>ul>li{
+    display: inline;
+    padding: 60px;
+    font-size: 20px;
+    font-family: 'Marcellus SC', serif;
+
+    
+}
+/* styling for section 4 */
+#sect4{
+    height: 100vh;
+}
