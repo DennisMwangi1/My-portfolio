@@ -5,8 +5,8 @@
     
 }
 body{
-    /* background-color: rgba(255, 255, 255, 0.646); */
-    background: linear-gradient(to bottom, rgb(226, 224, 224), white );
+    background-color: whitesmoke;
+    
     /* color: white; */
 }
 #sect1{
@@ -81,7 +81,7 @@ body{
 }
 /* styling for section2 */
 #sect2{
-    height: 80vh;
+    
     margin-top: 50px;
 }
 fieldset {
@@ -109,7 +109,7 @@ fieldset>legend{
 #sect2container>div{
     width: 100%;
     height: 40vh;
-    background: linear-gradient(to right, rgba(255, 217, 0, 0.724), rgba(189, 187, 187, 0.552));
+    background: linear-gradient(to top, rgba(255, 217, 0, 0.724), rgba(189, 187, 187, 0.552));
     border-radius: 50px;
     margin: 10px;
     padding-left: 70px;
@@ -125,7 +125,7 @@ fieldset>legend{
 }
 /* styling for section 3 */
 #sect3{
-    height: 50vh;
+    margin-top: 100px;
 }
 #sect3>fieldset{
     height: 25vh;
@@ -140,7 +140,7 @@ fieldset>legend{
 }
 /* styling for section 4 */
 #sect4{
-    /* height: 100vh; */
+    margin-top: 100px;
     margin-bottom: 100px;
 }
 #sect4>fieldset{
@@ -175,7 +175,8 @@ fieldset>legend{
 
 /* styling for section 5*/
 #sect5{
-    height: 100vh;
+    
+   margin-top: 150px;
 }
 #sect5>h1{
     font-family: 'Kelly Slab', cursive;
@@ -191,3 +192,54 @@ fieldset>legend{
     border-bottom: 3px solid gold;
     padding-bottom: 10px;
 }
+#sect5container{
+    margin: 20px;
+    margin-top: 50px;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#sect5container>div{
+    padding: 10px;
+    background:linear-gradient(to top, rgba(255, 213, 1, 0.449), rgba(255, 225, 0, 0.737));
+    margin: 30px;
+    width: 43%;
+    height: 50vh;
+    border-radius: 20px;
+}
+
+#sect5container>div>a>img{
+    border-radius: 20px;
+   
+    transition: transform .1s;
+    
+}
+
+#sect5container>div>h3{
+    text-align: center;
+    padding: 20px;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 20px;
+    letter-spacing: 3px;
+    padding-top: 30px;
+    
+}
+a>img:hover{
+    -ms-transform: scale(1.025); /* IE 9 */
+    -webkit-transform: scale(1.025); /* Safari 3-8 */
+    transform: scale(1.1);
+    
+}
+.span1{
+    border-top: 2px solid rgb(255, 255, 255);
+    padding-top: 10px;
+    border-radius: 10px;
+}
+.span2{
+    border-bottom: 2px solid rgba(243, 243, 241, 0.737);
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+/* styling for sect6 */
