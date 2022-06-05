@@ -184,11 +184,11 @@ fieldset>legend{
     letter-spacing: 8px;
     text-align: center;
 }
-#sect5>h1>#span1{
+#span1{
     padding-top: 10px;
     border-top: 3px solid gold;
 }
-#sect5>h1>#span2{
+#span2{
     border-bottom: 3px solid gold;
     padding-bottom: 10px;
 }
@@ -243,3 +243,59 @@ a>img:hover{
     border-radius: 10px;
 }
 /* styling for sect6 */
+#sect6{
+    margin-top: 100px;
+}
+#sect6>h1{
+    
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: 'Kelly Slab', cursive;
+    font-size: 40px;
+    letter-spacing: 8px;
+    
+}
+#sect6container{
+    padding-top: 50px;
+     height: 50vh;
+    width: 85%;
+    margin-left: 100px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    background:linear-gradient(to top, rgba(139, 136, 136, 0.811), rgba(255, 225, 0, 0.688));
+}
+#sect6container>#contactme>a{
+    display: block;
+    padding-top: 30px;
+    color: black;
+}
+#sect6container>#contactme>a:hover{
+    color: white;
+}
+#sect6container>#query>p,form{
+    line-height: 30px;
+}
+#sect6container>#query>form{
+    padding-top: 20px;
+}
+#response{
+    width: 60vh;
+    height: 10vh;
+    
+}
+#submit{
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: whitesmoke;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Kelly Slab', cursive;
+}
+#submit:hover{
+    color: white;
+    background-color: black;
+}
