@@ -10,7 +10,7 @@ body{
     /* color: white; */
 }
 #sect1{
-    background-image: url("./images/background2.jpeg");
+    background-image: url("./images/background1.jpeg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -131,7 +131,7 @@ fieldset>legend{
 }
 #sect2container>div{
     width: 100%;
-    height: 40vh;
+    
     background: linear-gradient(to top, rgba(255, 217, 0, 0.724), rgba(189, 187, 187, 0.552));
     border-radius: 50px;
     margin: 10px;
@@ -328,7 +328,8 @@ a>img:hover{
         font-size: 25px;
     }
     #sect1{
-        background-image: url("./images/background2.jpeg");
+        background-image: url("./images/background.jpg");
+        
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -336,6 +337,7 @@ a>img:hover{
     }
     #sect1>#sect1container{
         border-radius: 50px;
+        background: linear-gradient(to right, rgba(255, 217, 0, 0.726), rgba(255, 254, 254, 0.815));
     }
     #sect1div1{
         border: 0px;
@@ -352,7 +354,7 @@ a>img:hover{
         flex-wrap: wrap;
     }
     #sect2container>div{
-        height: 30vh;
+        
         margin: 10px;
         padding-left: 40px;
 
@@ -408,7 +410,7 @@ a>img:hover{
          background:linear-gradient(to top, rgba(255, 213, 1, 0.449), rgba(255, 225, 0, 0.737));
          margin: 30px;
          width: 100%;
-         height: 40vh;
+         
          border-radius: 20px;
      }
      
